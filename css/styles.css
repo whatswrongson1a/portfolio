@@ -95,7 +95,8 @@ body {
     width: 100%;
     position: relative;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 100px;
+    justify-content: center;
 }
 
 .container .card {
@@ -213,7 +214,98 @@ a {
     padding: 0;
 }
 
+.contacts-bg {
+    height: 900px;
+    background: linear-gradient(180deg, rgba(235, 249, 255, 0.3) 0%, rgba(246, 246, 255, 0.3) 100%);
+    padding-top: 34px;
+    margin-top: 100px;
+}
 
+.tel-adress-para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 26px;
+    color: #343D48;
+}
 
+.tel-adress {
+    margin-top: 100px;
+    margin-left: 170px;
+}
 
+.under-tel-adress {
+    width: 344px;
+    height: 113px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px; 
+    color: #343D48;
+    padding-top: 66px;
+}
 
+.icon-container {
+    width: 126px;
+    height: 126px;
+    border-radius: 100%;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 20px 50px rgba(103, 103, 103, 0.2);
+}
+
+.icon-container1:hover {
+    background: #eea3c6;
+    box-shadow: 0 0 5px #eea3c6, 0 0 25px #eea3c6, 0 0 50px #eea3c6, 0 0 200px #eea3c6;
+}
+
+.icon-container2:hover {
+    background: #94AEF1;
+    box-shadow: 0 0 5px #94AEF1, 0 0 25px #94AEF1, 0 0 50px #94AEF1, 0 0 200px #94AEF1;
+}
+
+.icon-container3:hover {
+    background: #A1C7AF;
+    box-shadow: 0 0 5px #A1C7AF, 0 0 25px #A1C7AF, 0 0 50px #A1C7AF, 0 0 200px #A1C7AF;
+}
+
+.icon-container4:hover {
+    background: #F7C998;
+    box-shadow: 0 0 5px #F7C998, 0 0 25px #F7C998, 0 0 50px #F7C998, 0 0 200px #F7C998;
+}
+
+.icon-container1 {
+    background-color: #E9C2D4;
+}
+
+.icon-container2 {
+    background-color: #94AEF1;
+}
+
+.icon-container3 {
+    background-color: #A1C7AF;
+}
+
+.icon-container4 {
+    background-color: #F7C998;
+}
+
+.icon {
+    fill:#f4f4f4;
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    height: 400px;
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.container-tel-icons {
+    display: flex;
+}
