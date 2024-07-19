@@ -269,6 +269,50 @@ a {
     padding: 0;
 }
 
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .container {
+        gap: 20px; /* Уменьшенный промежуток между карточками */
+        padding: 10px; /* Отступы для контейнера */
+    }
+
+    .card .face {
+        width: 100%; /* Автоматическая ширина для карточек */
+        height: auto; /* Автоматическая высота */
+    }
+
+    .card .face.face1 {
+        transform: translateY(0); /* Убираем трансформацию для мобильных устройств */
+    }
+
+    .card .face.face1 .content {
+        font-size: 24px; /* Уменьшенный размер шрифта */
+    }
+
+    .face.face2 {
+        transform: translateY(0); /* Убираем трансформацию для мобильных устройств */
+    }
+
+    .content p, a {
+        font-size: 14px; /* Уменьшенный размер шрифта */
+    }
+
+    .lang-container {
+        margin-top: 50px; /* Уменьшенный отступ сверху */
+        margin-bottom: 30px; /* Уменьшенный отступ снизу */
+    }
+
+    .lang-para {
+        font-size: 12px; /* Уменьшенный размер шрифта */
+        letter-spacing: 1px; /* Уменьшенный интервал между буквами */
+    }
+
+    .lang-title {
+        font-size: 24px; /* Уменьшенный размер шрифта */
+        line-height: 32px; /* Уменьшенная высота строки */
+    }
+}
+
 .contacts-bg {
     height: 900px;
     background: linear-gradient(180deg, rgba(235, 249, 255, 0.3) 0%, rgba(246, 246, 255, 0.3) 100%);
