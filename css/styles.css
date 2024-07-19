@@ -1,0 +1,96 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+}
+
+.header-ul {
+    list-style-type: none;
+}
+
+.header-container {
+    display: flex;
+    height: 83px;
+    align-items: center;
+    padding: 0 20px;
+    margin-left: 300px;
+}
+
+.header-title {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #02073E;
+    margin-left: 12px;
+
+}
+
+.header-ul {
+    margin-left: calc(50%-300px);
+    gap: 40px;
+}
+
+.header-ul-item {
+    display: inline-block;
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #02073E;
+}
+
+.hero {
+    background-image: url("../images/bghero.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.hero-container {
+    display: flex;
+    height: 920px;
+    padding-left: 160px;
+    padding-right: 160px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 85px;
+    width: 400px;
+    text-align: left;
+    margin: 0;
+}
+
+.hero-paragraf {
+    width: 480px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.hero-photo {
+    border-radius: 10px;
+    margin-left: 130px;
+    border: 2px solid #9A6BFF;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.path {
+    margin-left: 240px;
+    transform: rotate(-1.22deg);
+}
+
+
+
+
+
