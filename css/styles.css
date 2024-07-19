@@ -40,6 +40,31 @@ body {
     color: #02073E;
 }
 
+@media (max-width: 768px) {
+    .header-container {
+      flex-direction: column;
+      height: auto;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .header-title {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    .header-ul {
+      flex-direction: column;
+      margin-left: 0;
+      gap: 20px;
+    }
+  
+    .header-ul-item {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+
 .hero {
     background-image: url("../images/bghero.png");
     background-position: left top;
@@ -88,6 +113,36 @@ body {
 .path {
     margin-left: 240px;
     transform: rotate(-1.22deg);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hero {
+        background-position: center; /* Центрирование фона */
+    }
+
+    .hero-container {
+        padding: 0 10px; /* Еще меньше отступы */
+        flex-direction: column; /* Вертикальное размещение элементов */
+    }
+
+    .hero-title {
+        font-size: 30px; /* Еще меньше размер шрифта */
+    }
+
+    .hero-paragraf {
+        font-size: 14px; /* Еще меньше размер шрифта */
+        line-height: 24px; /* Уменьшенная высота строки */
+    }
+
+    .hero-photo {
+        width: 80%; /* Уменьшенная ширина изображения */
+        margin: 10px 0; /* Еще меньшие отступы */
+    }
+
+    .path {
+        display: none; /* Скрываем путь для мобильных устройств */
+    }
 }
 
 .container {
