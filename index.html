@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -28,13 +29,14 @@
         <img src="./images/corona.png" />
         <a href="./index.html" class="header-title">Portfolio</a>
         <ul class="header-ul">
-          <li class="header-ul-item">Home</li>
-          <li class="header-ul-item">Languages</li>
-          <li class="header-ul-item">Contacts</li>
+          <li class="header-ul-item"><a href="#about">About</a></li>
+          <li class="header-ul-item"><a href="#languages">Languages</a></li>
+          <li class="header-ul-item"><a href="#contacts">Contact</a></li>
         </ul>
       </div>
     </header>
-    <section class="hero">
+
+  <section class="hero" id="about">
       <div class="hero-container">
         <div class="hero-content">
           <h1 class="hero-title">Hello, <br />I`m Sonia!</h1>
@@ -54,13 +56,18 @@
         />
       </div>
     </section>
-    <section class="languages">
+  
+
+ 
+    <section class="languages" id="languages">
+
+
       <div class="lang-container">
         <p class="lang-para">Quality features</p>
         <h2 class="lang-title">Technologies and Languages</h2>
       </div>
       <div class="container">
-        <!-- html card -->
+        
 
         <div class="card">
           <div class="face face1">
@@ -80,7 +87,7 @@
           </div>
         </div>
 
-        <!-- css card -->
+       
 
         <div class="card">
           <div class="face face1">
@@ -101,7 +108,7 @@
           </div>
         </div>
 
-        <!-- js card -->
+        
 
         <div class="card">
           <div class="face face1">
@@ -123,10 +130,11 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
+
+   <section class="contacts" id="contacts">
       <div class="contacts-bg">
         <div class="lang-container">
-          <p class="contacts-ttl lang-para">For you</p>
+          <p class="contacts-ttl lang-para">How to find me?</p>
           <h2 class="lang-title">Contacts and socials</h2>
         </div>
         <div class="container-tel-icons">
@@ -141,31 +149,17 @@
           </div>
           <div class="social-icons">
             <div class="icon-container icon-container1">
-              <svg class="icon" width="66" height="66">
-                <use href="/images/icons.svg#icon-instagram-2"></use>
-              </svg>
+              <i class="fa-brands fa-instagram icon"></i>
             </div>
 
             <div class="icon-container icon-container2">
-              <svg class="icon" width="66" height="66">
-                <use href="./images/icons.svg#icon-instagram-2"></use>
-              </svg>
-            </div>
+              <i class="fa-brands fa-github icon"></i>
 
-            <div class="icon-container icon-container3">
-              <svg class="icon" width="66" height="66">
-                <use href="./images/icons.svg#icon-instagram-2"></use>
-              </svg>
-            </div>
-
-            <div class="icon-container icon-container4">
-              <svg class="icon" width="66" height="66">
-                <use href="./images/icons.svg#icon-instagram-2"></use>
-              </svg>
             </div>
           </div>
         </div>
       </div>
     </section>
+  
   </body>
 </html>
