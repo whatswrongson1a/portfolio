@@ -47,45 +47,6 @@ html {
     color: #02073E;
 }
 
- @mdia (min-width: 480px) and (max-width: 767px) {
-    .header-container {
-        margin-left: 0px;
-    }
-
-    .header-title {
-        margin-left: 8px;
-        font-size: 14px;
-    }
-
-    .header-ul {
-        margin-left: 0px;
-    }
-    
-    .header-ul-item {
-        margin-left: 30px;
-        font-size: 12px;
-    }
-  }
-
-@mdia (min-width: 768px) and (max-width: 1024px) {
-    .header-container {
-        margin-left: 20px;
-    }
-
-    .header-title {
-        margin-left: 12px;
-        font-size: 20px;
-    }
-
-    .header-ul {
-        margin-left: 10px;
-    }
-    
-    .header-ul-item {
-        margin-left: 70px;
-        font-size: 16px;
-    }
-  }
 
 .hero {
     background-image: url("../images/bghero.png");
@@ -100,6 +61,7 @@ html {
     padding-right: 160px;
     align-items: center;
     justify-content: center;
+    gap: 100px;
 }
 
 .hero-title {
@@ -121,7 +83,7 @@ html {
 .hero-content {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 .hero-photo {
