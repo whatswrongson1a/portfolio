@@ -354,7 +354,7 @@ a {
         margin-left: 10px;
         width: 120px;
         height: 160px;
-        border: 1px solid #9A6BFF;
+        border: 1px solid #6b9fff;
         padding: 2px;
     }
 
@@ -373,6 +373,7 @@ a {
         padding: 0 20px;
         align-items: center;
         justify-content: center;
+        gap: 0;
     }
 
     .path {
@@ -459,7 +460,7 @@ a {
         margin-left: 30px;
         width: 240px;
         height: 320px;
-        border: 2px solid #9A6BFF;
+        border: 2px solid #7093e5;
         padding: 3px;
     }
 
