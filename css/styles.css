@@ -42,7 +42,7 @@ body {
     color: #02073E;
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+ @mdia (min-width: 480px) and (max-width: 767px) {
     .header-container {
         margin-left: 0px;
     }
@@ -62,7 +62,7 @@ body {
     }
   }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@mdia (min-width: 768px) and (max-width: 1024px) {
     .header-container {
         margin-left: 20px;
     }
@@ -132,7 +132,7 @@ body {
     transform: rotate(-1.22deg);
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@mdia (min-width: 480px) and (max-width: 767px) {
     .hero-title {
         font-size: 24px;
         width: 200px;
@@ -172,7 +172,7 @@ body {
 
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@mdia (min-width: 768px) and (max-width: 1024px) {
     .hero-title {
         font-size: 36px;
         width: 200px;
@@ -340,7 +340,7 @@ a {
     padding: 0;
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@mdia (min-width: 480px) and (max-width: 767px) {
     .lang-title {
         font-size: 24px;
     }
@@ -358,7 +358,7 @@ a {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@mdia (min-width: 768px) and (max-width: 1024px) {
     .lang-title {
         font-size: 24px;
     }
@@ -458,7 +458,7 @@ a {
     align-items: center;
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@mdia (min-width: 480px) and (max-width: 767px) {
     .lang-title {
         font-size: 24px;
     }
@@ -512,7 +512,7 @@ a {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@mdia (min-width: 768px) and (max-width: 1024px) {
     .lang-title {
         font-size: 24px;
     }
@@ -549,6 +549,228 @@ a {
         flex-wrap: wrap;
         gap: 70px 120px;
         width: 100px;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+
+    .icon-container {
+        width: 82px;
+        height: 82px;
+    }
+
+    .icon {
+        font-size: 36px;
+    }
+
+    .contacts-bg {
+        height: 550px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .header-container {
+        margin-left: 0;
+    }
+
+    .content, a {
+        text-decoration: none;
+        color: #343644;
+        font-size: 1em;
+        margin: 0;
+        padding: 6px;
+        border-radius: 10%;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+
+    .header-title {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+
+    .header-ul {
+        margin-left: 0;
+    }
+    
+    .header-ul-item {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    .hero-title {
+        font-size: 24px;
+        width: 200px;
+        margin-top: 20%;
+    }
+
+    .hero-photo {
+        border-radius: 10px;
+        margin-left: 10px;
+        width: 100px;
+        height: 120px;
+        border: 2px solid #9A6BFF;
+        padding: 3px;
+    }
+
+    .hero-content {
+        margin-left: 10px;
+    }
+
+    .hero-paragraf {
+        width: 250px;
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .hero-container {
+        height: 480px;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .path {
+        margin-left: 24px;
+        width: 200px;
+    }
+
+    .lang-title {
+        font-size: 24px;
+    }
+
+    .lang-para {
+        font-size: 12px;
+    }
+
+    .lang-container {
+        margin-top: 52px;
+        margin-bottom: 27px;
+    }
+
+    .tel-adress {
+        margin-top: 0;
+        margin-left: 30px;
+    }
+
+    .tel-adress-para {
+        font-size: 18px;
+    }
+
+    .under-tel-adress {
+        width: 240px;
+        height: 113px;
+        font-weight: 400;
+        font-size: 13px;
+        padding-top: 40px;
+    }
+
+    .social-icons {
+        gap: 70px 120px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .icon-container {
+        width: 56px;
+        height: 56px;
+    }
+
+    .icon {
+        font-size: 24px;
+    }
+
+    .contacts-bg {
+        height: 550px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-container {
+        margin-left: 20px;
+    }
+
+    .header-title {
+        margin-left: 12px;
+        font-size: 20px;
+    }
+
+    .header-ul {
+        margin-left: 10px;
+    }
+    
+    .header-ul-item {
+        margin-left: 70px;
+        font-size: 16px;
+    }
+
+    .hero-title {
+        font-size: 36px;
+        width: 200px;
+        margin-top: 20%;
+    }
+
+    .hero-photo {
+        margin-left: 30px;
+        width: 240px;
+        height: 320px;
+        border: 2px solid #9A6BFF;
+        padding: 3px;
+    }
+
+    .hero-paragraf {
+        width: 400px;
+        font-size: 14px;
+        line-height: 34px;
+    }
+
+    .hero-container {
+        height: 480px;
+        padding: 0 30px;
+        justify-content: center;
+    }
+
+    .hero-content {
+        margin-left: 0;
+    }
+
+    .path {
+        margin-left: 24px;
+        width: 300px;
+    }
+
+    .lang-title {
+        font-size: 24px;
+    }
+
+    .lang-para {
+        font-size: 12px;
+    }
+
+    .lang-container {
+        margin-top: 52px;
+        margin-bottom: 27px;
+    }
+
+    .tel-adress {
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    .tel-adress-para {
+        font-size: 18px;
+        width: 360px;
+    }
+
+    .under-tel-adress {
+        width: 240px;
+        height: 113px;
+        font-weight: 400;
+        font-size: 13px;
+        padding-top: 40px;
+    }
+
+    .social-icons {
+        width: auto;
         margin-left: 80px;
         margin-top: 30px;
     }
