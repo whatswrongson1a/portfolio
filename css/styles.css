@@ -4,6 +4,11 @@ body {
     width: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 .header-ul {
     list-style-type: none;
 }
